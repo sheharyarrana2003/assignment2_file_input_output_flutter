@@ -6,7 +6,6 @@ void main() async {
   await runFileOperationsTests();
   runApp(MyApp());
 }
-List<String>? data;
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
