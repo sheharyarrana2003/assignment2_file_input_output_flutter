@@ -41,7 +41,7 @@ Future<void> runFileOperationsTests() async {
     assert(processedData[i] == expectedData[i], "Line ${i + 1} mismatch: expected ${expectedData[i]}, got ${processedData[i]}");
   }
 
-  print(readData);
-  print(processedData);
+  print("Actual Data $readData");
+  print("Reversed Data $processedData");
   print("All tests passed.");
 }
